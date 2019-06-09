@@ -1,0 +1,4 @@
+FROM centos_python_pip:1.0
+RUN pip install flask
+COPY XYZ.py /home/.
+CMD ["python","/home/XYZ.py"]
